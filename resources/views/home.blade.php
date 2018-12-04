@@ -1,58 +1,47 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="">
+<div class="bg-dark py-4">
     <div class="row justify-content-center">
         <div class="col-md-12">
             <ul class="nav justify-content-center">
                 <li class="nav-item">
                     <a class="nav-link  font-weight-bold text-light text-center" href="">
-                        <img src="{{ asset('images/icons/discount.svg') }}" class="svg category_logo" width="40" height="40">
-                        <p class="m-0">{{__('categories.discount')}}</p>
+                        <img src="{{ asset('images/icons/fashion.svg') }}" class="svg category_logo" width="40" height="40">
+                        <p class="m-0">{{__('Одежда')}}</p>
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link  font-weight-bold text-light text-center" href="">
-                        <img src="{{ asset('images/icons/wine.svg') }}" class="svg category_logo" width="40" height="40">
-                        <p class="m-0 ">{{__('categories.alkogol')}}</p>
+                        <img src="{{ asset('images/icons/puzzle.svg') }}" class="svg category_logo" width="40" height="40">
+                        <p class="m-0 ">{{__('Детские игрушки')}}</p>
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link  font-weight-bold text-light text-center" href="">
-                        <img src="{{ asset('images/icons/pipe.svg') }}" class="svg category_logo" width="40" height="40">
-                        <p class="m-0">{{__('categories.sigarety')}}</p>
+                        <img src="{{ asset('images/icons/christmas-tree.svg') }}" class="svg category_logo" width="40" height="40">
+                        <p class="m-0">{{__('Новогодние товары')}}</p>
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link  font-weight-bold text-light text-center" href="">
-                        <img src="{{ asset('images/icons/diamond.svg') }}" class="svg category_logo" width="40" height="40">
-                        <p class="m-0">{{__('categories.jewelry')}}</p>
+                        <img src="{{ asset('images/icons/coffee-cup.svg') }}" class="svg category_logo" width="40" height="40">
+                        <p class="m-0">{{__('Заведения')}}</p>
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link  font-weight-bold text-light text-center" href="">
-                        <img src="{{ asset('images/icons/perfume.svg') }}" class="svg category_logo" width="40" height="40">
-                        <p class="m-0">{{__('categories.perfumery')}}</p>
+                        <img src="{{ asset('images/icons/house.svg') }}" class="svg category_logo" width="40" height="40">
+                        <p class="m-0">{{__('Недвижимость')}}</p>
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link  font-weight-bold text-light text-center" href="">
-                        <img src="{{ asset('images/icons/coffee-bean.svg') }}" class="svg category_logo" width="40" height="40">
-                        <p class="m-0">{{__('categories.coffee')}}</p>
+                        <img src="{{ asset('images/icons/washing-machine.svg') }}" class="svg category_logo" width="40" height="40">
+                        <p class="m-0">{{__('Бытовая техника')}}</p>
                     </a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link  font-weight-bold text-light text-center" href="">
-                        <img src="{{ asset('images/icons/wristwatch.svg') }}" class="svg category_logo" width="40" height="40">
-                        <p class="m-0">{{__('categories.accessories')}}</p>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link  font-weight-bold text-light text-center" href="">
-                        <img src="{{ asset('images/icons/gift.svg') }}" class="svg category_logo" width="40" height="40">
-                        <p class="m-0">{{__('categories.gift')}}</p>
-                    </a>
-                </li>
+
             </ul>
         </div>
     </div>
