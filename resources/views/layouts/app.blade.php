@@ -11,6 +11,8 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="{{asset('js/three.js')}}"></script>
+    <script src="{{asset('js/files.js')}}"></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -23,7 +25,6 @@
 <body>
 @include('_partials._sidemenu')
 @include('_partials._header_contacts')
-
 <main class="">
     @yield('content')
 </main>
