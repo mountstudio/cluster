@@ -23,7 +23,7 @@
     <link href="{{ asset('css/main.css') }}" rel="stylesheet">
 </head>
 <body>
-@include('_partials._sidemenu')
+{{--@include('_partials._sidemenu')--}}
 @include('_partials._header_contacts')
 <main class="">
     @yield('content')
