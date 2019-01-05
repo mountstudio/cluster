@@ -5,4 +5,5 @@
     <div>
         <a href="{{ route('panorama') }}">Панорама</a>
     </div>
+
 @endsection

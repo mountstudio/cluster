@@ -35,8 +35,16 @@
                 <li class="nav-item">
                     <a class="nav-link  font-weight-bold text-light text-center" href="">
                         <img src="{{ asset('images/icons/washing-machine.svg') }}" class="svg category_logo" width="40" height="40">
-                        <p class="m-0">{{__('Бытовая техника')}}</p>
+                        <p class="m-0">{{__('Бытовая     техника')}}</p>
                     </a>
+                </li>
+                <li class="nav-item">
+                    <input type="checkbox" id="menu-toggle" hidden>
+                    <nav class="menu bg-dark">
+                        <label for="menu-toggle" class="menu-toggle" onclick></label>
+                        @include('_partials._all_categories', ['fixed' => true])
+                    </nav>
+                    <div class="mask-content"></div>
                 </li>
 
 
